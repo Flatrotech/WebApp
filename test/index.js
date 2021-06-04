@@ -1,5 +1,5 @@
 /**
- * @copyright Copyright 2016 Kevin Locke <kevin@kevinlocke.name>
+ * @copyright Copyright 2021 Brendan Nason <flatrotech@gmail.com>
  * @license MIT
  */
 

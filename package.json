@@ -1,5 +1,5 @@
 {
-  "name": "flatrotech/web-app",
+  "name": "@flatrotech/web-app",
   "version": "0.0.1",
   "description": "A Node.js/npm project application that has no structure or purpose yet.",
   "keywords": [
@@ -7,12 +7,12 @@
     "temporary"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/kevinoid/node-project-template",
-  "bugs": "https://github.com/kevinoid/node-project-template/issues",
-  "author": "Kevin Locke <kevin@kevinlocke.name>",
+  "homepage": "https://github.com/Flatrotech/WebApp",
+  "bugs": "https://github.com/Flatrotech/WebApp/issues",
+  "author": "Brendan Nason <flatrotech@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevinoid/node-project-template.git"
+    "url": "https://github.com/Flatrotech/WebApp.git"
   },
   "type": "commonjs",
   "files": [
