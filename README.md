@@ -2,7 +2,6 @@ Web App
 ================
 
 [![Build Status](https://img.shields.io/github/workflow/status/Flatrotech/webapp/Node.js%20CI)](https://github.com/Flatrotech/WebApp/actions/workflows/node.js.yml)
-[![Dependency Status](https://img.shields.io/david/flatrotech/webapp)](https://github.com/Flatrotech/WebApp/network/dependencies)
 
 Welcome to the Web App. Currently, this is a playground of a web application that I 
 hope to put plenty of time into to learn some cool stuff in the world of programming.
