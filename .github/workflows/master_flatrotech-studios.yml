@@ -16,17 +16,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: Open web api directory
-      working-directory: backend/Web.Api
-      run: |
-        ls -la
-      
     - name: Set up .NET Core
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.1.301'
         include-prerelease: true
 
+    - name: Check directory
+      run: dir
+      
     - name: Build with dotnet
       run: dotnet build --configuration Release
 
