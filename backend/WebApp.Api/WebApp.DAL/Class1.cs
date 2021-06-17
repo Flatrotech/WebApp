@@ -4,7 +4,7 @@ namespace WebApp.DAL
 {
     public class WebAppDbContext : DbContext
     {
-        public DbSet<>
+        //public DbSet<>
 
         public WebAppDbContext() : base()
         {
