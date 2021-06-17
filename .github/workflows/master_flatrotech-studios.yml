@@ -22,8 +22,11 @@ jobs:
         dotnet-version: '3.1.301'
         include-prerelease: true
 
-    - name: Check directory
-      run: dir
+    - name: Check out backend directory
+      run: cd backend
+      
+    - name: Check out api directory
+      run: cd WebApp.Api
       
     - name: Build with dotnet
       run: dotnet build --configuration Release
