@@ -1,16 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using WebApp.Api.Contracts;
+using WebApp.Api.Services;
 using WebApp.DAL;
 
 namespace WebApp.Api
@@ -29,6 +24,8 @@ namespace WebApp.Api
         {
             var conn = Configuration.GetConnectionString("mySqlConnection");
 
+            services.AddScoped<ISpotifyService, SpotifyService>();
+
             services.AddDbContext<WebAppDbContext>(options =>
             {
                 options.UseMySql(conn, ServerVersion.AutoDetect(conn));
@@ -37,11 +34,19 @@ namespace WebApp.Api
             services.AddSingleton(_ => Configuration);
 
             services.AddControllers();
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web App Api V1");
+            });
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
