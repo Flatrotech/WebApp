@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './assets/css/index.css';
+import App from './views/LandingPage/App';
+import reportWebVitals from './assets/jss/reportWebVitals';
+import { createBrowserHistory } from "history";
+import { Router, Route, Switch } from "react-router-dom";
+
+var hist = createBrowserHistory();
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router history={hist}>
+    <Switch>
+      <Route path="/" component={App} />
+    </Switch>
+  </Router>,
   document.getElementById('root')
 );
 
