@@ -19,7 +19,7 @@ namespace WebApp.Api.Controllers
         }
 
         [HttpPost("add")]
-        [AllowAnonymous]
+        [Authorize]
         public async Task<IActionResult> AddUser(WhitelistModel whitelist)
         {
             try

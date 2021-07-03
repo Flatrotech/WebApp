@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PSmHHj5M4UhuE7q2/HcSp12t5u+kYTasZs+1fPsVgyEzQAri4zZfdkDsW2dvYKjcpsxsvBXHDRdFYcgTucpM4w==",
+  "dgSpecHash": "jZIxS5U9pOkSBGM/eQDYe+Li6yPsqA6QD1/opiux19iiM4vDWEAo/WBjOMbomZW6NGWBWu4+GXWK71TQ0PGEDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\flatr\\Desktop\\Software Dev\\WebApp\\backend\\WebApp.Api\\WebApp.Api\\WebApp.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\flatr\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.16\\microsoft.aspnetcore.authentication.jwtbearer.3.1.16.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.5\\microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512",
@@ -18,6 +19,11 @@
     "C:\\Users\\flatr\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\flatr\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.5.0\\microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
+    "C:\\Users\\flatr\\.nuget\\packages\\microsoft.identitymodel.logging\\5.5.0\\microsoft.identitymodel.logging.5.5.0.nupkg.sha512",
+    "C:\\Users\\flatr\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.5.0\\microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
+    "C:\\Users\\flatr\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.5.0\\microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
+    "C:\\Users\\flatr\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
@@ -32,7 +38,9 @@
     "C:\\Users\\flatr\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\flatr\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.5.0\\system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
   ],
   "logs": []
