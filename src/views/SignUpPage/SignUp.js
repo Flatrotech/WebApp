@@ -16,7 +16,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const dashboardRoutes = [];
 const useStyles = makeStyles(styles);
 
-function App(props) {
+function SignUp(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
@@ -44,7 +44,7 @@ function App(props) {
                 get added!
               </h4>
               <br />
-              <Link to="/signup" style={{ textDecoration: 'none'}}>
+              <Link to="/">
                 <Button
                   color="info"
                   size="lg"
@@ -52,7 +52,7 @@ function App(props) {
                   rel="noopener noreferrer"
                 >
                   <i className="fas fa-play" />
-                  Join Now
+                  Go Back!
                 </Button>
               </Link>
             </GridItem>
@@ -68,4 +68,4 @@ function App(props) {
   );
 }
 
-export default App;
+export default SignUp;

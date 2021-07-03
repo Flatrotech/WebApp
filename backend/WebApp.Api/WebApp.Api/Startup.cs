@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RestSharp;
 using WebApp.Api.Contracts;
 using WebApp.Api.Services;
 using WebApp.DAL;
@@ -24,7 +25,8 @@ namespace WebApp.Api
         {
             var conn = Configuration.GetConnectionString("mySqlConnection");
 
-            services.AddScoped<ISpotifyService, SpotifyService>();
+            services.AddScoped<IMojangService, MojangService>();
+            services.AddSingleton<IRestClient, RestClient>();
 
             services.AddDbContext<WebAppDbContext>(options =>
             {

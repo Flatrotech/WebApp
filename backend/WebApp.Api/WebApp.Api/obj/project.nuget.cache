@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2/BUsYZbXVD3mhlvr//YThLnC3BdB1LdkJVrzSv89GdHUU246j23dCAfiBkNej4BNdV6eB5h4aZS/5O+Ofa0Bw==",
+  "dgSpecHash": "PSmHHj5M4UhuE7q2/HcSp12t5u+kYTasZs+1fPsVgyEzQAri4zZfdkDsW2dvYKjcpsxsvBXHDRdFYcgTucpM4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\flatr\\Desktop\\Software Dev\\WebApp\\backend\\WebApp.Api\\WebApp.Api\\WebApp.Api.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,7 @@
     "C:\\Users\\flatr\\.nuget\\packages\\mysqlconnector\\1.3.7\\mysqlconnector.1.3.7.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.0\\pomelo.entityframeworkcore.mysql.5.0.0.nupkg.sha512",
-    "C:\\Users\\flatr\\.nuget\\packages\\spotifyapi.web\\6.2.0\\spotifyapi.web.6.2.0.nupkg.sha512",
+    "C:\\Users\\flatr\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
     "C:\\Users\\flatr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
