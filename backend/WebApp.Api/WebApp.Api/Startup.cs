@@ -26,6 +26,8 @@ namespace WebApp.Api
             var conn = Configuration.GetConnectionString("mySqlConnection");
 
             services.AddScoped<IMojangService, MojangService>();
+            services.AddScoped<IWhitelistService, WhitelistService>();
+
             services.AddSingleton<IRestClient, RestClient>();
 
             services.AddDbContext<WebAppDbContext>(options =>
